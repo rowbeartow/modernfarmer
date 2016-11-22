@@ -38,6 +38,120 @@
 
 }
 
+.mainArticlePic {
+    position: relative;
+    width: 100%;
+}
+/****
+relative positioning for each photo/title(couldnt get away with putting commas between)
+****/
+.food1 {
+    position: relative;
+}
+.food2 {
+    position: relative;
+}
+.food3 {
+    position: relative;
+}
+.sponsored1 {
+    position: relative;
+}
+.sponsored2 {
+    position: relative;
+}
+.sponsored3 {
+    position: relative;
+}
+.lifestyle1 {
+    position: relative;
+}
+.lifestyle2 {
+    position: relative;
+}
+.lifestyle3 {
+    position: relative;
+}
+.animals1 {
+    position: relative;
+}
+.animals2 {
+    position: relative;
+}
+.animals3 {
+    position: relative;
+}
+.tech1 {
+    position: relative;
+}
+.tech2 {
+    position: relative;
+}
+.tech3 {
+    position: relative;
+}
+.how1 {
+    position: relative;
+}
+.how2 {
+    position: relative;
+}
+.how3 {
+    position: relative;
+}
+
+.sectionTitle {
+    display: block;
+    top: 5%;
+    left: 5%;
+    background-color: #158ac4;
+    border: none;
+    color: white;
+    padding: 3px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;  
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.articleTitle {
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    color: white; 
+    font-size: 15px; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.secondaryArticlePic {
+    position: relative;
+    width: 100%;
+}
+
+.articleDescription {
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    color: white; 
+    font-size: 12px; 
+    width: 70%;
+    font: helvetica;
+}
+
+.artAuthor {
+    position: absolute;
+    text-align: center;
+    top: 85%;
+    color: white; 
+    font-size: 10px;
+    font: helvetica; 
+}
+
+row1 {
+    display: block; 
+}
+
 /****
 @media queries
 ****/
