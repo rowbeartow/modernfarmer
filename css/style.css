@@ -25,8 +25,11 @@ hr {
 
 /*END NORMALIZE -- RANDALL*/
 
+/*RANDALL DID THIS. CHANGE IF YOU NEED TO. This seems to be the easiest fix for making the menu sit on top of everything. everything seems to work okay. still*/
 
-
+*{
+    position: relative;
+}
 
 
 /*NAVIGATION -- RANDALL*/
@@ -36,7 +39,7 @@ div.menu{
     position: fixed;
     top:0;
     width: 100%;
-    z-index 1000;
+    z-index: 100;
     box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, .1);
     margin-top: 0;
 }
@@ -50,20 +53,20 @@ div.menu{
 
 .navigation a{
     display: block;
-    padding 20px 20px;
     text-decoration: none;
     text-align: center;
-    padding: 16px;
+    padding: 6%;
     font-family: 'Helvetica', sans-serif;
     font-weight:800;
+    font-size: 16px;
     color: #ccc;
 }
 
 .navigation li{
     width: 60%;
     margin: 0 auto;
-    padding-top 2%;
-    padding-bottom: 2%;
+    padding-top 1%;
+    padding-bottom: 1%;
     border-bottom: .2px solid rgba(255, 255, 255, .3);
 }
 
@@ -98,10 +101,10 @@ label[for="menuButton"]{
 label[for="menuButton"]:after{
     content: "";
     position: absolute;
-    top: 30px;
-    right: 36px;
-    width: 20px;
-    height: 3px;
+    top: 40%;
+    right: 10%;
+    width: 30%;
+    height: 8%;
     background: #fff;
     box-shadow: 
     0 0.3em 0 0 #fff,
@@ -129,7 +132,6 @@ label[for="menuButton"]:after{
     padding-left: 10%; 
     margin: 0 auto;
 }
-
 /* End LOGO - Rob */
 
 .header{
@@ -171,7 +173,6 @@ label[for="menuButton"]:after{
 
 .hero-image {
     position: relative; 
-    z-index: -1;
     
 }
 .learn-beekeeping {
@@ -296,6 +297,16 @@ Faith's footer
 }
 /********* Media Query (tim) *********/
 @media screen and (min-width: 1326px) {
+    
+    
+    /*RANDALL--NAVIGATION*/
+    
+    .home img{}
+    
+    .label[for="menuButton"]:after{}
+    
+    
+    /*RANDALL--END NAVIGATION*/
     
     .row1, .row2, .row3 {
         width: 100%;
