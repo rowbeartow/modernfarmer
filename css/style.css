@@ -98,10 +98,10 @@ label[for="menuButton"]{
 label[for="menuButton"]:after{
     content: "";
     position: absolute;
-    top: 20px;
+    top: 30px;
     right: 36px;
-    width: 15px;
-    height: 2.5px;
+    width: 20px;
+    height: 3px;
     background: #fff;
     box-shadow: 
     0 0.3em 0 0 #fff,
