@@ -287,12 +287,42 @@ Faith's footer
 
 *****/
 
-.nav li {
+.main-nav li {
     text-decoration: none;
     list-style-type: none;
     display: inline-block;
     font-family: 'Source Sans Pro', sans-serif;
-     
+    padding-right: 7px; 
+}
+
+p.MFM {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #ca192d;
+    margin-bottom: 0px;
+    padding-left: 20px;
+}
+
+.footer-container {
+    background-color: #158ac4;
+    padding-bottom: 10px;
+}
+
+a {
+    color: #ca192d; 
+}
+
+a:visited {
+    color: #2bfecb;
+}
+
+.main-nav {
+    margin-top: 8px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+}
+
+.social-nav {
+    display: inline-block;
 }
 /********* Media Query (tim) *********/
 @media screen and (min-width: 1326px) {
