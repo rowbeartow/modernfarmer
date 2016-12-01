@@ -126,7 +126,7 @@ label[for="menuButton"]:after{
 .home img {
     display: inline-block;
     float: left;
-    max-width: 200px;
+    max-width: 20%;
     height: auto;
     padding-top: 5%; 
     padding-bottom: 5%; 
